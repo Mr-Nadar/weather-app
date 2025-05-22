@@ -46,3 +46,22 @@ img{
     color: #f2f2f6; 
     font-size: 6rem;
 }
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 10%;
+    width: 100%;;
+    color: #e7e7f5;
+    font-size: 3rem;
+}
+
+#currentLocationButton{
+    border-radius: 20px;
+    color: #747482;
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    border-color: #e7e7f5;
+}
