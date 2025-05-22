@@ -46,22 +46,15 @@ img{
     color: #f2f2f6; 
     font-size: 6rem;
 }
-.buttonContainer{
+.searchContainer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    height: 10%;
-    width: 100%;;
-    color: #e7e7f5;
-    font-size: 3rem;
+    height: 15%;
+   
 }
-
-#currentLocationButton{
-    border-radius: 20px;
-    color: #747482;
-    margin-top: 20px;
-    height: 30px;
-    width: 150px;
-    border-color: #e7e7f5;
+.searchContainer form input{
+   display: flex;
+   border-radius: 20px;
+   border-color: #f2f2f6;
 }
