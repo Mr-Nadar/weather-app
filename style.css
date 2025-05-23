@@ -1,12 +1,15 @@
 .box{
     width: 300px;
     height:300px;
-    background-color: rgba(72, 30, 156, 0.655);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(142, 231, 255, 0.9);
+    box-shadow: rgba(0, 0, 0, 0) 0px 54px 55px, rgba(0, 0, 0, 0) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin: 10px;
     border-radius: 20px;
 }
 .mainContainer{
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('image/image3.webp');
+    background-size: cover; 
+    background-position: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -14,6 +17,8 @@
     height: 100vh;
 }
 .header{ 
+   color:rgb(250, 254, 255);
+    font-size: 1.5rem;
    display: flex;
    justify-content: center;
 }
