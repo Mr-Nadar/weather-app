@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class = "mainContainer">
-        <div class = "container">
-            <div class = "header">
+    <div class="mainContainer" id="mainContainer">
+        <div class="container">
+            <div class="header">
                 <div>Weather App</div>
             </div>
-                <div class = "box">
-            <div class="searchContainer">
-             <form>
-                 <div class="input-wrapper">
-                     <input type="text" id="searchInput" placeholder="Enter city name">
-                     <button type="submit" id="searchBtn">
-                          <span class="search-icon">&#128269;</span>
-                    </button>
-                 </div>
-             </form>
-            </div>
-
-                    <div class="picContainer">
-                        
-                    <img src="/image/images.webp" >
-                        </div>
-                        
-                    <div class="abc">  
-                            <div>23</div>
-                            <div>°C</div>
+            <div class="box">
+                <div class="welcome-section" id="welcomeSection">
+                    <div class="welcome-message">👋 Welcome to your Weather App!</div>
+                    <div class="date-time" id="dateTime"></div>
+                    <div class="weather-fact" id="weatherFact">
+                        🌦️ Did you know? The highest temperature ever recorded on Earth was 56.7°C (134°F) in Death Valley, USA!
                     </div>
-        </div>   
+                </div>
+                <div class="searchContainer">
+                    <form id="weatherForm">
+                        <div class="input-wrapper">
+                            <input type="text" id="searchInput" placeholder="Enter city name" autocomplete="off">
+                            <button type="submit" id="searchBtn">
+                                <span class="search-icon">&#128269;</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div id="spinner" class="spinner" style="display:none;"></div>
+                <div class="abc" id="weatherInfo">
+                    <p style="color:#aaa;">Search for a city to see the weather!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>
